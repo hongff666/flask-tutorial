@@ -16,6 +16,16 @@
                 "--no-reload"
             ],
             "jinja": true
+        },
+        {
+            "name": "Python: pytest",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "tests"
+            ],
+            "justMyCode": true
         }
     ]
 }
